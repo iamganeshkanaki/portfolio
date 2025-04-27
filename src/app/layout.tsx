@@ -16,6 +16,7 @@ const fontSans = FontSans({
 export const metadata: Metadata = {
   title: 'Scrollfolio - Your Portfolio',
   description: 'A portfolio showcasing projects and skills.',
+  icons: null, // Explicitly disable default favicon handling
 };
 
 export default function RootLayout({

@@ -1,3 +1,4 @@
+
 import { ProjectCard } from '@/components/project-card';
 import { ContactForm } from '@/components/contact-form';
 import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
@@ -39,7 +40,7 @@ export default function Home() {
   return (
     <div className="flex flex-col min-h-screen">
       {/* Hero Section */}
-      <section id="home" className="w-full py-20 md:py-32 lg:py-40 bg-secondary">
+      <section id="home" className="w-full pt-20 md:pt-32 lg:pt-40 pb-10 md:pb-16 lg:pb-20 bg-secondary"> {/* Added pt padding to offset header */}
         <div className="container px-4 md:px-6 text-center">
           <div className="space-y-4">
             <Avatar className="w-32 h-32 mx-auto border-4 border-primary shadow-lg">

@@ -1,0 +1,3 @@
+This is a placeholder PDF file for the resume download. Replace this with your actual resume PDF.
+Ensure the filename matches the link in src/app/resume/page.tsx (currently /resume.pdf).
+You can name it YourName_Resume.pdf and update the link accordingly: href="/YourName_Resume.pdf".
