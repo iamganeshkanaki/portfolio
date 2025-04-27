@@ -7,68 +7,58 @@ import { Button } from '@/components/ui/button';
 import { Download, Mail, Phone, MapPin, Linkedin, Github } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'Resume - Your Name | Scrollfolio',
+  title: 'Resume - Ganesh Kanaki | Porfolio',
   description: 'Detailed resume of Your Name, showcasing experience, education, and skills.',
 };
 
 // Sample data - replace with your actual information
 const resumeData = {
-  name: 'Your Name',
+  name: 'Ganesh Kanaki',
   title: 'Software Developer',
   contact: {
-    email: 'your.email@example.com',
-    phone: '+1 (123) 456-7890',
-    location: 'City, State',
-    linkedin: 'https://linkedin.com/in/yourprofile',
-    github: 'https://github.com/yourusername',
+    email: 'iamganeshkanaki@gmail.com',
+    phone: '+918600476638',
+    location: 'Pune, Maharashtra',
+    linkedin: 'https://www.linkedin.com/in/ganesh-kanaki-327b7b237/',
+    github: 'https://github.com/iamganeshkanaki',
   },
-  summary:
-    'Highly motivated and results-oriented Software Developer with X years of experience in designing, developing, and implementing software solutions. Proven ability to work effectively in team environments and deliver high-quality code. Passionate about learning new technologies and solving complex problems.',
-  experience: [
-    {
-      title: 'Senior Software Engineer',
-      company: 'Tech Corp Inc.',
-      location: 'San Francisco, CA',
-      date: 'Jan 2020 - Present',
-      description: [
-        'Led the development of a new customer-facing web application using React and Node.js, resulting in a 20% increase in user engagement.',
-        'Collaborated with cross-functional teams to define project requirements and deliverables.',
-        'Mentored junior developers and conducted code reviews.',
-        'Implemented CI/CD pipelines using Jenkins and Docker.',
-      ],
-    },
-    {
-      title: 'Software Engineer',
-      company: 'Web Solutions LLC',
-      location: 'Austin, TX',
-      date: 'Jun 2017 - Dec 2019',
-      description: [
-        'Developed and maintained backend services using Python and Django.',
-        'Contributed to the design and implementation of RESTful APIs.',
-        'Participated in agile development processes, including daily stand-ups and sprint planning.',
-      ],
-    },
+  summary: 
+  'Detail-oriented and passionate Full-Stack Developer with hands-on experience in Angular, Django, and SQL-based systems. Skilled in building scalable web applications, designing robust APIs, and delivering secure, efficient solutions. Strong focus on clean, well-documented code and practical problem-solving. Thrives in dynamic environments, continuously learning and adapting to new technologies to drive project success.',
+   experience: [
+      {
+        title: 'Senior Software Engineer',
+        company: 'Rhythmflows PTV LTD',
+        location: 'kothrud Pune.', // (You can change location if you want!)
+        date: 'Jun 2024 - Present',
+        description: [
+          'Architected and developed dynamic web applications using Angular and Django, improving system performance by 30%.',
+          'Designed RESTful APIs and integrated complex SQL queries to optimize backend processes and data management.',
+          'Implemented robust CSRF protection and user authentication features, enhancing application security.',
+          'Mentored junior engineers, conducted detailed code reviews, and emphasized writing clean, well-documented code.',
+          'Built automated deployment pipelines with Docker and GitHub Actions, reducing release times by 40%.',
+        ],
+      },
   ],
   education: [
     {
-      degree: 'Master of Science in Computer Science',
-      institution: 'University of Technology',
-      location: 'Metropolis, USA',
-      date: '2017',
+      degree: 'Master of Computer Application',
+      institution: 'Pune University',
+      location: 'Pune, Mahatrashtra',
+      date: '2024',
       description: 'Specialized in Artificial Intelligence and Machine Learning.',
     },
     {
-      degree: 'Bachelor of Science in Software Engineering',
-      institution: 'State University',
-      location: 'Gotham, USA',
-      date: '2015',
+      degree: 'Bachelor of Computer Application',
+      institution: 'Solpaur University',
+      location: 'Solpaur, Mahatrashtra',
+      date: '2022',
       description: 'Graduated with Honors.',
     },
   ],
   skills: [
-    'JavaScript', 'TypeScript', 'React', 'Next.js', 'Node.js', 'Python', 'Django',
-    'Java', 'Spring Boot', 'SQL', 'NoSQL', 'MongoDB', 'PostgreSQL', 'Docker',
-    'Kubernetes', 'AWS', 'GCP', 'Git', 'Agile Methodologies', 'CI/CD',
+    'JavaScript', 'Amgular Js','Node.js', 'Python', 'Django',
+    'SQL',  'PostgreSQL', 'Docker',
+   'Git', 'Agile Methodologies',
   ],
 };
 

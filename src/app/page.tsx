@@ -44,11 +44,11 @@ export default function Home() {
         <div className="container px-4 md:px-6 text-center">
           <div className="space-y-4">
             <Avatar className="w-32 h-32 mx-auto border-4 border-primary shadow-lg">
-              <AvatarImage src="https://picsum.photos/seed/avatar/200" alt="Your Name" />
+              <AvatarImage src="/Img2.jpg" alt="Ganes Kanaki" />
               <AvatarFallback>YN</AvatarFallback>
             </Avatar>
             <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl/none text-primary">
-              Your Name
+              Ganesh Kanaki
             </h1>
             <p className="mx-auto max-w-[700px] text-foreground/80 md:text-xl">
               Passionate Developer | Creative Thinker | Problem Solver
