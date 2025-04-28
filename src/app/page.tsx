@@ -51,21 +51,21 @@ export default function Home() {
               Ganesh Kanaki
             </h1>
             <p className="mx-auto max-w-[700px] text-foreground/80 md:text-xl">
-              Passionate Developer | Creative Thinker | Problem Solver
+              Full Stack Developer
             </p>
              <div className="flex justify-center space-x-4 pt-4">
               <Button variant="outline" size="icon" asChild>
-                <a href="#" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                <a href="https://www.github.com/iamganeshkanaki" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
                   <Github className="h-5 w-5" />
                 </a>
               </Button>
               <Button variant="outline" size="icon" asChild>
-                <a href="#" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                <a href="https://www.linkedin.com/in/ganesh-kanaki-327b7b237/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
                   <Linkedin className="h-5 w-5" />
                 </a>
               </Button>
               <Button variant="outline" size="icon" asChild>
-                 <a href="#" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
+                 <a href="https://www.twitter.com/iamganeshkanaki" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
                   <Twitter className="h-5 w-5" />
                 </a>
               </Button>
@@ -141,7 +141,7 @@ export default function Home() {
           <div className="mx-auto w-full max-w-md space-y-8">
              <ContactForm />
               <div className="text-center text-sm text-muted-foreground">
-                Or reach out directly at <a href="mailto:your.email@example.com" className="text-accent hover:underline">your.email@example.com</a>
+                Or reach out directly at <a href="mailto:iamganeshkanaki@gmail.com?subject=Regarding%20your%20portfolio" className="text-accent hover:underline">iamganeshkanaki@gmail.com</a>
               </div>
           </div>
         </div>
